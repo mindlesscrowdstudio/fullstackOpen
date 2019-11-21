@@ -1,0 +1,12 @@
+title Single Page App
+note right of Browser: Browser  loads HTML CSS AND JS 
+
+Server->Browser: Server Returns HTML https://fullstack-exampleapp.herokuapp.com/notes
+Browser ->Server: User Request CSS
+Server->Browser: Server Returns https://fullstack-exampleapp.herokuapp.com/main.css
+Browser ->Server: Request JS
+Server->Browser: Returns https://fullstack-exampleapp.herokuapp.com/main.js
+note left of Browser: Browser execute javascript that contians json code
+Browser ->Server: Request JSON 
+Server->Browser: Returns https://fullstack-exampleapp.herokuapp.com/data.json
+note left of Browser: Browser renders json data list

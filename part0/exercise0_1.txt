@@ -1,0 +1,13 @@
+title Add note
+
+Browser  ->Server : Add note on click submit button and clear input
+note right of Server: Server thinks about it
+Server->Browser: Server Returns HTML https://fullstack-exampleapp.herokuapp.com/notes
+Browser ->Server: User Request CSS
+Server->Browser: Server Returns https://fullstack-exampleapp.herokuapp.com/main.css
+Browser ->Server: Request JS
+Server->Browser: Returns https://fullstack-exampleapp.herokuapp.com/main.js
+note left of Browser: Browser execute javascript that contians json code
+Browser ->Server: Request JSON 
+Server->Browser: Returns https://fullstack-exampleapp.herokuapp.com/data.json
+note left of Browser: Renders json data to displays from click event
